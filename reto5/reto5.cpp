@@ -1,19 +1,18 @@
 #include<iostream>
 using namespace std;
-#include<math.h>
+#include<cmath>
 
-int minjumps(int X, int Y, int D){
+float minjumps(float X, float Y, float D){
 
-    int diff=(Y-X)/2;
-    ceil(diff);
-    
+    float diff=(Y-X)/D;
+
     return diff;
 }
 
 int main(){
 
-    int x, y, d;
-    int resultado;
+    float x, y, d;
+    float resultado;
 
     cout<<"Enter initial point: ";
     cin>>x;
@@ -26,7 +25,7 @@ int main(){
 
     resultado=minjumps(x,y,d);
 
-    cout<<"The minimal amount of jumps needed is: "<<resultado;
+    cout<<"Minimal amount of jumps needed: "<<ceil(resultado)<<endl;
 }
 
 // hay que buscar una función que redondee el numero de saltos si éste es un decimal

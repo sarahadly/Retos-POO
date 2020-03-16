@@ -35,7 +35,7 @@ int main(){
        a.push_back(elem);
     }
 
-    cout<<"Enter number of rotations: ";
+    /*cout<<"Enter number of rotations: ";
     cin>>k;
 
     k=k%a.size(); // divide el numero de rotaciones entre el tamaño del array original 
@@ -48,6 +48,6 @@ int main(){
         cout<<b[i];
     }
     
-    cout<<" rotated "<<k<<" times.";
+    cout<<" rotated "<<k<<" times.";*/
 }
 

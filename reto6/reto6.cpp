@@ -10,15 +10,28 @@ int solution(vector <int> A){
         cout<<A[i];
     }
 
-    return 5;
+    return 0;
 }
 
 int main(){
 
-    int faltante;
-    vector<int> A={2, 5, 4, 1, 6};
-    faltante = solution(A);
-    cout<<"\nEl número faltante es: "<<faltante<<endl;
+    int falt, largo, numar;
+    vector<int> A;
+    
+    falt = solution(A);
+    
+    cout<<"Choose Array size: ";
+    cin>>largo;
+    
+    for(int i=largo; i<largo; i++){
+        cout<<"Enter value of index "<<i;
+        cin>>numar;
+        A.push_back(x);
+    }
+    
+    largo=largo+1;
+    
+    cout<<"\nEl número faltante es: "<<falt<<endl;
 
 
 

@@ -32,12 +32,12 @@ int solution(int A, int B, int K){
     //Paso 3
     for(int i=A; i<=B; i++){
         //Paso 3.1
-        if(i-){
-
+        if(i%K==0){
+        cont=cont+1;
         }
     }
 
-
+    return cont;
 }
 
 int main(){
@@ -54,6 +54,8 @@ int main(){
     cout<< "Captura el valor de K, parce"<<endl;
     cin>> K;
 
-    res=solution;
+    res=solution(A, B, K);
+    
+    cout<< "Número de casos: " << res << endl;
 
 }

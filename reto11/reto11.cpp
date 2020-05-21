@@ -33,7 +33,7 @@ int solution(int A, int B, int K){
     for(int i=A; i<=B; i++){
         //Paso 3.1
         if(i%K==0){
-        cont=cont+1;
+        cont=cont+1; // 3.1.1 contador aumenta
         }
     }
 
@@ -55,7 +55,7 @@ int main(){
     cin>> K;
 
     res=solution(A, B, K);
-    
+
     cout<< "Número de casos: " << res << endl;
 
 }
